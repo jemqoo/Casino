@@ -58,7 +58,6 @@
 }
 
 .btn {
-  border: none;
   transition: all 0.3s ease;
   background-color: inherit;
   transition: transform 0.3s ease;

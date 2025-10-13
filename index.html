@@ -14,7 +14,8 @@
 
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="stylesheet" href="styles/header.css" />
-    <link rel="" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/welcome-block.css" />
   </head>
   <body>
     <header class="header">
@@ -54,5 +55,140 @@
         </button>
       </div>
     </header>
+
+    <main>
+      <section class="welcome-block">
+        <div class="auth">
+          <h1 class="signup-title">Sign up and start winning</h1>
+
+          <p class="signup-subtitle">With your social network</p>
+
+          <div class="social-buttons">
+            <button class="social-btn email">
+              <img
+                src="images/socialnetwork_icon/arroba.svg"
+                alt="icon email"
+              />
+            </button>
+
+            <button class="social-btn odnoklassniki">
+              <img
+                src="images/socialnetwork_icon/odnoklassniki-logo.svg"
+                alt="icon odnoklassniki"
+              />
+            </button>
+
+            <button class="social-btn facebook">
+              <img
+                src="images/socialnetwork_icon/facebook.svg"
+                alt="icon facebook"
+              />
+            </button>
+
+            <button class="social-btn vk">
+              <img src="images/socialnetwork_icon/vk.svg" alt="icon vk" />
+            </button>
+
+            <button class="social-btn google">
+              <img
+                src="images/socialnetwork_icon/google-plus.svg"
+                alt="icon google"
+              />
+            </button>
+          </div>
+
+          <p class="or">or</p>
+
+          <form class="signup-form">
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-input"
+                placeholder="E-mail *"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <input
+                type="password"
+                class="form-input"
+                placeholder="Password *"
+                required
+              />
+              <select class="form-input" required>
+                <option value="" disabled selected>Currency *</option>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">RUB</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <input type="text" class="form-input" placeholder="Promo-code" />
+            </div>
+          </form>
+
+          <div class="agreement-group">
+            <div class="checkbox-item">
+              <input type="checkbox" id="agree-terms" class="checkbox" />
+              <label for="agree-terms" class="checkbox-label"
+                >I agree with <u>Teame and Confidence</u>
+              </label>
+            </div>
+
+            <div class="checkbox-item">
+              <input type="checkbox" id="confirm-age" class="checkbox" />
+              <label for="confirm-age" class="checkbox-label"
+                >I confirm that I'm 18 years or older</label
+              >
+            </div>
+          </div>
+
+          <button type="submit" class="submit-btn">Register</button>
+
+          <div class="login-link">
+            <p>Have an account?</p>
+          </div>
+        </div>
+
+        <div class="bonus-container">
+          <div class="nav-button">
+            <button class="prev-button">
+              <img
+                src="images/welcome-block/prev-button.svg"
+                alt="Prev-Button"
+              />
+            </button>
+
+            <button class="nav-button next-button">
+              <img
+                src="images/welcome-block/next-button.svg"
+                alt="Next-Button"
+              />
+            </button>
+          </div>
+
+          <div class="first-bonuses">FIRST BONUSES</div>
+
+          <div class="welcome-bonus">Welcome BonusPackage</div>
+
+          <div class="divider">
+            <img src="images/welcome-block/divider.svg" alt="divider" />
+          </div>
+
+          <div class="bonus-text">200 bonus and 100 free spins</div>
+
+          <button>Deposit</button>
+
+          <div class="line">
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

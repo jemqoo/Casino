@@ -1,0 +1,122 @@
+.welcome-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.auth {
+  display: flex;
+  flex-direction: column;
+  margin-left: 270px;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-title {
+  color: white;
+  font-weight: 700;
+  font-size: 27px;
+  width: auto;
+  height: 29px;
+  margin: 0;
+}
+
+.signup-subtitle {
+  color: #8c91ba;
+  font-weight: 400;
+  font-size: 12px;
+  width: auto;
+  height: 15px;
+  margin: 13px 0;
+}
+
+.or {
+  color: #8c91ba;
+  font-weight: 400;
+  font-size: 12px;
+  width: auto;
+  height: 15px;
+  margin: 7px 0;
+}
+
+.agreement-group {
+  color: #8c91ba;
+  font-weight: 400;
+  font-size: 12px;
+  width: auto;
+  height: 15px;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  background-color: inherit;
+  color: #8c91ba;
+  border: 1px solid #32448c;
+  border-radius: 17px;
+}
+
+.form-group {
+  width: 320px;
+  height: 30px;
+  box-sizing: border-box;
+}
+
+.bonus-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 1244px;
+  height: 492px;
+  background-image: url("../images/brice-laville-saint-martin-asset.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  gap: 1rem;
+}
+
+.bonus-container > * {
+  margin-left: 64px;
+}
+
+.first-bonuses {
+  color: #87e389;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 105%;
+  width: auto;
+  height: 15px;
+  text-transform: uppercase;
+}
+
+.welcome-bonus {
+  color: white;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 105%;
+  width: 373px;
+  height: 76px;
+  text-transform: uppercase;
+}
+
+.bonus-text {
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  text-transform: lowercase;
+}
+
+.line > button {
+  background-color: #48508fb2;
+  width: 236px;
+  height: 5px;
+  border-radius: 50px;
+  transition: 0.5s ease;
+}
+
+.line > button:hover {
+  background-color: rgba(135, 227, 137, 0.7);
+}
