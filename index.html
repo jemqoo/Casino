@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="styles/header.css" />
     <link rel="stylesheet" href="styles/header.css" />
     <link rel="stylesheet" href="styles/welcome-block.css" />
+    <link rel="stylesheet" href="styles/games-filter.css" />
+  </head>
   </head>
   <body>
     <header class="header">
@@ -187,6 +189,143 @@
             <button></button>
             <button></button>
           </div>
+        </div>
+      </section>
+
+      <section class="games-filter">
+        <div class="main-categories">
+            <div class="categories-scroll">
+              <button class="category-btn active" aria-label="New games">
+                <span class="category-icon">
+                  <img
+                    src="images/games-filter/New games.svg"
+                    alt=""
+                    aria-hidden="true"
+                  />
+                </span>
+                <span class="category-text">New games</span>
+              </button>
+
+              <button class="category-btn" aria-label="Popular games">
+                <span class="category-icon">
+                  <img
+                    src="images/games-filter/Popular.svg"
+                    alt=""
+                    aria-hidden="true"
+                  />
+                </span>
+                <span class="category-text">Popular</span>
+              </button>
+
+              <button class="category-btn" aria-label="Slots games">
+                <span class="category-icon">
+                  <img src="images/games-filter/Slots.svg" alt="" aria-hidden="true" />
+                </span>
+                <span class="category-text">Slots</span>
+              </button>
+
+              <button class="category-btn" aria-label="Casino Live">
+                <span class="category-icon">
+                  <img
+                    src="images/games-filter/Casino Live.svg"
+                    alt=""
+                    aria-hidden="true"
+                  />
+                </span>
+                <span class="category-text">Casino Live</span>
+              </button>
+
+              <button class="category-btn" aria-label="Table Games">
+                <span class="category-icon">
+                  <img
+                    src="images/games-filter/Table Games.svg"
+                    alt=""
+                    aria-hidden="true"
+                  />
+                </span>
+                <span class="category-text">Table Games</span>
+              </button>
+
+              <button class="category-btn" aria-label="Favorites">
+                <span class="category-icon">
+                  <img
+                    src="images/games-filter/Favorites.svg"
+                    alt=""
+                    aria-hidden="true"
+                  />
+                </span>
+                <span class="category-text">Favorites</span>
+              </button>
+
+              <button class="category-btn" aria-label="Last played">
+                <span class="category-icon">
+                  <img
+                    src="images/games-filter/Last played.svg"
+                    alt=""
+                    aria-hidden="true"
+                  />
+                </span>
+                <span class="category-text">Last played</span>
+              </button>
+            
+
+          <div class="category-dropdown">
+            <select class="category-select" aria-label="Select category">
+              <option class="main-option" value="all" disabled selected>All Category</option>
+              <option value="new">New games</option>
+              <option value="popular">Popular</option>
+              <option value="slots">Slots</option>
+              <option value="live">Casino Live</option>
+              <option value="table">Table Games</option>
+              <option value="favorites">Favorites</option>
+              <option value="last">Last played</option>
+            </select>
+          </div>
+
+          <div class="search-section">
+            <div class="search-container">
+
+              <input
+                type="text"
+                class="search-input"
+                placeholder="Search games or providers"
+                aria-label="Search games or providers"
+              />
+                            <span class="search-icon">
+                <img src="images/search.svg" alt=""/>
+              </span>
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="providers-section">
+            <div class="providers-scroll">
+              <button class="provider-btn active">All Providers</button>
+              <button class="provider-btn">NetEnt</button>
+              <button class="provider-btn">Microgaming</button>
+              <button class="provider-btn">Quickspin</button>
+              <button class="provider-btn">PragmaticPlay</button>
+              <button class="provider-btn">BoomingGames</button>
+              <button class="provider-btn">Mrslotty</button>
+              <button class="provider-btn">BoomingGames</button>
+              <button class="provider-btn">BetRadar</button>
+              <button class="provider-btn">PariPlay</button>
+              <button class="provider-btn">BetConstruct</button>
+              <button class="provider-btn">NetEnt</button>
+              <div class="provider-dropdown">
+            <select class="provider-select" aria-label="Select provider">
+              <option value="More" disabled selected>More</option>
+              <option value="NetEnt">NetEnt</option>
+              <option value="Microgaming">Microgaming</option>
+              <option value="Quickspin">Quickspin</option>
+              <option value="PragmaticPlay">PragmaticPlay</option>
+              <option value="BoomingGames">BoomingGames</option>
+              <option value="BetRadar">BetRadar</option>
+              <option value="PariPlay">PariPlay</option>
+            </select>
+          </div>    
+            </div>
         </div>
       </section>
     </main>
